@@ -42,8 +42,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'cars.apps.CarsConfig',
     'homes',
-    'messages',
-    'users',
+    'directmessages',
 ]    
 
 MIDDLEWARE = [
