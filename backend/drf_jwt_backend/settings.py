@@ -41,6 +41,9 @@ INSTALLED_APPS = [
     'authentication.apps.AuthenticationConfig',
     'corsheaders',
     'cars.apps.CarsConfig',
+    'homes',
+    'messages',
+    'users',
 ]    
 
 MIDDLEWARE = [

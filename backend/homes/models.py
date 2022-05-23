@@ -1,9 +1,11 @@
 from django.db import models
-from django.contrib.auth.models import User
 
 
-class Homes(models.Model):
 
-    
-
-    
+class Home(models.Model):
+    sale = models.Charfield(max_length=255)
+    price = models.DecimalField(max_digits=8, decimal_places=2)
+    bedroom = models.IntegerField()
+    bath = models.IntegerField()
+    square_feet = models.IntegerField()
+    photo = models.ImageField()
